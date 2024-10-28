@@ -1,0 +1,51 @@
+.signup-page {
+   width: 100%;
+   max-width: 400px;
+   margin: auto;
+   padding: 50px 20px;
+   background: #ffffff;
+   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+   border-radius: 10px;
+   text-align: center;
+}
+
+.signup-page h2 {
+   font-size: 1.8rem;
+   color: #333;
+   margin-bottom: 20px;
+}
+
+.success-message {
+   color: #4caf50;
+   /* Green for success */
+   font-size: 1rem;
+   margin-top: 10px;
+}
+
+.error-message {
+   color: #f44336;
+   /* Red for error */
+   font-size: 1rem;
+   margin-top: 10px;
+}
+
+.login-link {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 20px;
+}
+
+.login-link .icon {
+   color: #333;
+   margin-right: 8px;
+}
+
+.login-link a {
+   color: #007bff;
+   text-decoration: none;
+}
+
+.login-link a:hover {
+   text-decoration: underline;
+}

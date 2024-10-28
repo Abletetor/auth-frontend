@@ -1,0 +1,56 @@
+.dashboard {
+   background-color: #f9f9f9;
+   border-radius: 8px;
+   padding: 20px;
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+   max-width: 600px;
+   margin: 20px auto;
+   transition: transform 0.2s;
+}
+
+.dashboard:hover {
+   transform: scale(1.02);
+}
+
+.dashboard h2 {
+   color: #4a90e2;
+   font-size: 24px;
+   margin-bottom: 10px;
+   text-align: center;
+}
+
+.welcome-message,
+.explore-message {
+   font-size: 18px;
+   text-align: center;
+   margin: 10px 0;
+}
+
+.user-info {
+   background-color: #fff;
+   border-radius: 5px;
+   padding: 15px;
+   margin: 15px 0;
+   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.user-info p {
+   margin: 5px 0;
+   color: #333;
+}
+
+.logout-button {
+   display: block;
+   margin: 0 auto;
+   background-color: #e94e77;
+   color: #fff;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+   background-color: #d03c65;
+}
