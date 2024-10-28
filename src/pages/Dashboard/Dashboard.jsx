@@ -19,7 +19,7 @@ const Dashboard = () => {
                return;
             }
 
-            const response = await fetch('http://localhost:5000/api/user/dashboard', {
+            const response = await fetch(`${import.meta.env.VITE_APP_URL}/api/user/dashboard`, {
                headers: {
                   'Content-Type': 'application/json',
                   Authorization: `Bearer ${token}`,

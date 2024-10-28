@@ -15,7 +15,7 @@ const PasswordReset = () => {
       e.preventDefault();
       console.log("Token being sent:", token); // Log token for debugging
       try {
-         const response = await fetch(`http://localhost:5000/api/auth/reset-password/${token}`, {
+         const response = await fetch(`${import.meta.env.VITE_APP_URL}/api/auth/reset-password/${token}`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ password }),

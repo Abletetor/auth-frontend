@@ -12,7 +12,7 @@ const VerifyEmail = () => {
    useEffect(() => {
       const verifyToken = async () => {
          try {
-            const response = await fetch(`http://localhost:5000/api/auth/verify-email?token=${token}`);
+            const response = await fetch(`${import.meta.env.VITE_APP_URL}/api/auth/verify-email?token=${token}`);
             const data = await response.json();
 
             if (response.ok) {
