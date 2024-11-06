@@ -34,7 +34,7 @@ const Login = () => {
             return;
          }
 
-         const data = await response.json(); // Parse JSON response
+         const data = await response.json();
          setSuccessMessage("Login successful! Redirecting to dashboard...");
 
          // Optionally, store token if needed for authorization
