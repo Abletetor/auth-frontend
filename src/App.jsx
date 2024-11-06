@@ -18,7 +18,6 @@ export default function App () {
                <Route path='/login' element={ <Login /> } />
                <Route path="/verify-email" element={ <VerifyEmail /> } />
                <Route path="/request-password-reset" element={ <RequestPasswordReset /> } />
-               {/* <Route path="/reset-password" element={ <PasswordReset /> } /> */ }
                <Route path="/reset-password/:token" element={ <PasswordReset /> } />
                <Route path='/dashboard' element={ <Dashboard /> } />
             </Routes>

@@ -17,8 +17,7 @@ const VerifyEmail = () => {
 
             if (response.ok) {
                setMessage(data.message);
-               setIsSuccess(true); // Set success state
-               // Redirect to login after a short delay
+               setIsSuccess(true);
                setTimeout(() => navigate('/login'), 3000);
             } else {
                setMessage(data.message || "Verification failed.");
